@@ -1,0 +1,15 @@
+#footer {
+    background-color: lightgrey;
+    padding: 8px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 16px;
+}

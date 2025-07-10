@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Business Recorder | Powered by Bootstrap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initail-scale=1.0" />
+    <meta name="description" content="Learn about job openings at business recorder" />
+    <meta property="og:title" content="Business Recorder" />
+    <meta property="og:description" content="Learn about job openings at business recorder" />
+    <meta property="og:image" content="/banner.jpg" />
+    <link rel="icon" href="/banner.jpg" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--Nav bar-->
+
+    <nav class="navbar navbar-expand-md shadow-sm">
+        <div class="container-md">
+            <a class="navbar-brand" href="#">Business Recorder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="https://www.brecorder.com/" target="_blank">
+                        Newspaper
+                    </a>
+                    <a class="nav-link"
+                        href="https://x.com/brecordernews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank">
+                        Twitter
+                    </a>
+                    <a class="nav-link" href="https://www.youtube.com/@aajtvofficial" target="_blank">
+                        Youtube
+                    </a>
+                    <a class="btn btn-primary ms-md-2" aria-disabled="true">
+                        Sign In
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main Heading-->
+
+    <div class="container px-4">
+        <div class="row flex-lg-row-reverse align-items-center py-5">
+            <div class="col-12 col-lg-6"> <img src="team.jpg" class="d-block img-fluid rounded mx-auto mb-4"
+                    alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3 text-center text-lg-start">About Business Recorder</h1>
+                <p class="lead">Business Recorder is an English-language financial daily newspaper in Pakistan, founded
+                    by Muhammad Ahmed Zuberi in 1965. The publication is owned by the Business Recorder Group. Newspaper
+                    founder's eldest son, Wamiq Zuberi, is the editor of the newspaper, and chief executive officer of
+                    the Business Recorder Group.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start"> </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Job Oppertunities-->
+
+    <div class="container px-4">
+        <h2 class="text-center" mb-4>Job Oppertunities</h2>
+        <div>
+            <div class="card my-4 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Frontend Developer</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Karachi,Pakistan | Rs.80,000</h6>
+                    <small class="card-text text-body-secondary"> Posted July 8, 2025</small>.
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="card my-4 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Fullstack Developer</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Islamabad,Pakistan | Rs.100,000</h6>
+                    <small class="card-text text-body-secondary"> Posted July 8, 2025</small>.
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="card my-4 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Editor</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Karachi,Pakistan | Rs.70,000</h6>
+                    <small class="card-text text-body-secondary"> Posted July 8, 2025</small>.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4 mt-5">
+        <h2 class="text-center">Submit Your Application</h2>
+
+        <form action="https://formbold.com/s/3wcKl" method="post" enctype="multipart/form-data">
+
+            <div class="mb-3 col-sm-6">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+
+            <div class="mb-3 col-sm-6">
+                <label for="fullname" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullname" required placeholder="John Doe">
+            </div>
+
+            <div class="mb-3 col-sm-6">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="phone" required placeholder="+92">
+            </div>
+
+            <div class="mb-3 col-sm-6">
+               <label for="position" class="form-label">Position Applied For</label> 
+               <select class="form-select" aria-label="Default select example">
+                <option selected-value="">Select a position</option>
+                <option value="frontend developer">Frontend Developer</option>
+                <option value="fullstack developer">FullStack Developer</option>
+                <option value="editor">Editor</option>
+               </select>
+            </div>
+
+            <div class="mb-3 col-sm-6">
+                <label for="resume" class="form-label">Upload Resume</label>
+                <input type="file" class="form-control" id="resume" name="resume" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="resume" class="form-label">Cover Letter</label>
+                <textarea placeholder="Why should we consider you for the job?" class="form-control" id="resume" name="resume" rows="5" required></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary">
+                Submit Application
+            </button>
+
+        </form>
+
+    </div>
+
+    <div>
+        <div id="footer">
+         <ul id="footer-links">
+        <li>
+            <a href="https://x.com/brecordernews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank">
+                Twitter
+            </a>
+        </li>
+        <li>
+            <a href="https://en.wikipedia.org/wiki/Business_Recorder" target="_blank" Wikipedia>
+                Wikipedia
+            </a>
+        </li>
+        <li>
+            <a href="https://www.brecorder.com/" target="_blank">
+                Newspaper
+            </a> 
+        </li>
+    </ul>
+    <span>© 2025 Business Recorder</span>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
